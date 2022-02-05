@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.22.48" id="DataBindings"
+             SeparateXMLFiles="false" Package="view" ClientType="Generic">
+  <pageMap>
+    <page path="/ContactLis.jsf" usageId="view_ContactLisPageDef"/>
+    <page path="/ContactLookup.jsf" usageId="view_ContactLookupPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="view_ContactLisPageDef" path="view.pageDefs.ContactLisPageDef"/>
+    <page id="view_ContactLookupPageDef" path="view.pageDefs.ContactLookupPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="AddressBook" path="model.AddressBook"/>
+  </dataControlUsages>
+</Application>
